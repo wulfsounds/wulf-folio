@@ -9,14 +9,14 @@ import Header from "./components/end-caps/Header";
 import Footer from "./components/end-caps/Footer";
 
 // Import Pages
-import Home from "./pages/Home"
+import Home from "./pages/Home";
 
 // Import Folio Pages
 import Design from "./pages/Design";
 import Develop from "./pages/Develop";
 
 // Import 404 Page
-import Gateway from "./pages/Gateway"
+import Gateway from "./pages/Gateway";
 
 function App() {
 	return (
@@ -27,9 +27,9 @@ function App() {
 						<Route path="/" element={<Home />} />
 						<Route path="/design" element={<Design />} />
 						<Route path="/develop" element={<Develop />} />
-            <Route path='*' element={<Gateway />} />
+						<Route path="*" element={<Gateway />} />
 					</Routes>
-          <Footer />
+					<Footer />
 				</Router>
 			</div>
 		</ChakraProvider>

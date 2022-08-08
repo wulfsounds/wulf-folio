@@ -8,8 +8,6 @@ import {
 	useDisclosure,
 	Box,
 } from "@chakra-ui/react";
-import Designer from "../../pages/folio/design/DNDY";
-import Developer from "../../pages/folio/develop/EmpTrk";
 
 const MenuItems = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure(); 
@@ -33,8 +31,8 @@ const MenuItems = () => {
 					</AccordionButton>
 					<AccordionPanel pb={4}>
 						<div className="menu-links">
-							<Designer />
-							<Developer />
+							<a className="link" href="/design">DESIGNER</a>
+							<a className="link" href="/develop">DEVELOPER</a>
 						</div>
 					</AccordionPanel>
 				</AccordionItem>
