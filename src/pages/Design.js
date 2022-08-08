@@ -1,21 +1,16 @@
 //Import React/Chakra
 import React from "react";
-import {
-	DrawerBody,
-	DrawerContent,
-} from "@chakra-ui/react";
 
 //Import Drawer Components, Engines
-import MenuDeck from "../../../components/menu/MenuDeck";
-import ThymeLeft from "../../../components/engine/ThymeCtrl/ThymeLeft";
-import DayRight from "../../../components/engine/DayCtrl/DayRight";
+import MenuDeck from "../components/menu/MenuDeck";
+import ThymeLeft from "../components/engine/ThymeCtrl/ThymeLeft";
+import DayRight from "../components/engine/DayCtrl/DayRight";
 
-const DNDY = () => {
-	return (
-		<>
-			{/* <DrawerContent>
-				<DrawerBody className="drawer drawer-body dndy"> */}
-					<header>
+const Design = () => {
+    return (
+        <>
+        <body className="dndy">
+            <header>
 						<h2 className="menu folio-head">DESIGNER</h2>
 						<MenuDeck />
 					</header>
@@ -51,11 +46,9 @@ const DNDY = () => {
 								DEPLOY</a>
 						</section>
 					</main>
-					{/* <Footer /> */}
-				{/* </DrawerBody>
-			</DrawerContent> */}
-		</>
-	);
-};
+        </body>
+        </>
+    )
+}
 
-export default DNDY;
+export default Design;

@@ -1,8 +1,11 @@
 import React from "react";
 import ProfilePic from "../components/images/dev-profile-web.jpg"
+import Header from "../components/end-caps/Header";
 
 const Home = () => {
     return (
+        <>  
+        <Header />
         <main className="vh">
                 {/* image */}
                 <section>
@@ -31,6 +34,7 @@ const Home = () => {
                     </p>
                 </section>
         </main>
+        </>
     )
 }
 

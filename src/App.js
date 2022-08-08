@@ -12,8 +12,8 @@ import Footer from "./components/end-caps/Footer";
 import Home from "./pages/Home"
 
 // Import Folio Pages
-import DNDY from "./pages/folio/design/DNDY";
-import EmpTrk from "./pages/folio/develop/EmpTrk";
+import Design from "./pages/Design";
+import Develop from "./pages/Develop";
 
 // Import 404 Page
 import Gateway from "./pages/Gateway"
@@ -23,11 +23,10 @@ function App() {
 		<ChakraProvider>
 			<div className="App">
 				<Router>
-					<Header />
 					<Routes>
 						<Route path="/" element={<Home />} />
-						<Route path="/design" element={<DNDY />} />
-						<Route path="/develop" element={<EmpTrk />} />
+						<Route path="/design" element={<Design />} />
+						<Route path="/develop" element={<Develop />} />
             <Route path='*' element={<Gateway />} />
 					</Routes>
           <Footer />
