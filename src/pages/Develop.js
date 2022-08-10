@@ -1,10 +1,7 @@
 //Import React/Chakra
 import React from "react";
-
 import DevHead from "../components/end-caps/DevHead";
 //Import Drawer Components, Engines
-import MenuDeck from "../components/menu/MenuDeck";
-import RMLeft from "../components/engine/Readme/RMLeft";
 import JRight from "../components/engine/Jate/JRight";
 
 const Develop = () => {
@@ -31,6 +28,7 @@ const Develop = () => {
 						className="repo-link"
 						href="https://github.com/wulfsounds/sql-employee-tracker"
 						target="_blank"
+						rel="noreferrer"
 					>
 						GITHUB
 					</a>

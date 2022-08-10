@@ -6,7 +6,7 @@ import {
 	DrawerOverlay,
 	IconButton,
 } from "@chakra-ui/react";
-import { ArrowRightIcon, ArrowLeftIcon } from "@chakra-ui/icons";
+import { ArrowRightIcon } from "@chakra-ui/icons";
 import Daytrip from "../../../pages/folio/design/Daytrip";
 
 const DayRight = () => {

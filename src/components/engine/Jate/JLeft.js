@@ -7,12 +7,12 @@ import {
 	IconButton,
 	DrawerCloseButton
 } from "@chakra-ui/react";
-import { ArrowRightIcon, ArrowLeftIcon } from "@chakra-ui/icons";
+import { ArrowLeftIcon } from "@chakra-ui/icons";
 
 const JLeft = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [placement, setPlacement] = React.useState("left");
-	const [size, setSize] = React.useState("full");
+	const [placement] = React.useState("left");
+	const [size] = React.useState("full");
 
 	return (
 		<>

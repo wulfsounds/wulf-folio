@@ -7,7 +7,6 @@ import {
 
 //Import Drawer Components, Engines
 import MenuDeck from "../../../components/menu/MenuDeck";
-import DNDYRight from "../../../components/engine/DNDYCtrl/DndyRight";
 import DayLeft from "../../../components/engine/DayCtrl/DayLeft";
 
 const Thyme = () => {
@@ -38,6 +37,7 @@ const Thyme = () => {
 								className="repo-link"
 								href="https://github.com/wulfsounds/g2p-thyme"
 								target="_blank"
+								rel="noreferrer"
 							>
 								GITHUB</a>
 							<br></br>
@@ -45,6 +45,7 @@ const Thyme = () => {
 								className="repo-link"
 								href="https://thyme-calendar.herokuapp.com/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								DEPLOY</a>
 						</section>

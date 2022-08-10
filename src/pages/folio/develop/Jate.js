@@ -34,6 +34,7 @@ const Jate = () => {
 								className="repo-link"
 								href="https://github.com/wulfsounds/pwa-jate"
 								target="_blank"
+								rel="noreferrer"
 							>
 								GITHUB
 							</a>

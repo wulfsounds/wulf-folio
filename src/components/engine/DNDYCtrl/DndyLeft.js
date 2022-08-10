@@ -10,9 +10,9 @@ import {
 import { ArrowLeftIcon } from "@chakra-ui/icons";
 
 const DesignEco = () => {
-	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [placement, setPlacement] = React.useState("left");
-	const [size, setSize] = React.useState("full");
+	const { isOpen, onClose } = useDisclosure();
+	const [placement] = React.useState("left");
+	const [size] = React.useState("full");
 
 	return (
 		<>

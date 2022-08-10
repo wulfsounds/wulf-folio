@@ -13,8 +13,8 @@ import MenuItems from "./MenuItems";
 
 function MenuDeck() {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [placement, setPlacement] = React.useState("bottom");
-	const [size, setSize] = React.useState("full");
+	const [placement] = React.useState("bottom");
+	const [size] = React.useState("full");
 
 	return (
 		<>

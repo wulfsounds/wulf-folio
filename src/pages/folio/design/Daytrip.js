@@ -37,6 +37,7 @@ const Daytrip = () => {
 								className="repo-link"
 								href="https://github.com/wulfsounds/daytripper"
 								target="_blank"
+								rel="noreferrer"
 							>
 								GITHUB
 							</a>
@@ -45,6 +46,7 @@ const Daytrip = () => {
 								className="repo-link"
 								href="https://wulfsounds.github.io/daytripper/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								DEPLOY
 							</a>

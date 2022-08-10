@@ -5,7 +5,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
 
 // Import Components
-import Header from "./components/end-caps/Header";
 import Footer from "./components/end-caps/Footer";
 
 // Import Pages

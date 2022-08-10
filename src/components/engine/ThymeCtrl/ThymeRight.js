@@ -11,8 +11,8 @@ import Thyme from "../../../pages/folio/design/Thyme";
 
 const ThymeRight = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [placement, setPlacement] = React.useState("right");
-	const [size, setSize] = React.useState("full");
+	const [placement] = React.useState("right");
+	const [size] = React.useState("full");
 
 	return (
 		<>

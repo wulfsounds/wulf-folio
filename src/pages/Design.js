@@ -31,6 +31,7 @@ const Design = () => {
 							className="repo-link"
 							href="https://github.com/DNDYArt/DNDYArt"
 							target="_blank"
+							rel="noreferrer"
 						>
 							GITHUB
 						</a>
@@ -39,6 +40,7 @@ const Design = () => {
 							className="repo-link"
 							href="https://dndyfineart.herokuapp.com/"
 							target="_blank"
+							rel="noreferrer"
 						>
 							DEPLOY
 						</a>

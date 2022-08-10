@@ -11,20 +11,12 @@ import { ArrowLeftIcon } from "@chakra-ui/icons";
 import Daytrip from "../../../pages/folio/design/Daytrip";
 
 const DayLeft = () => {
-	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [placement, setPlacement] = React.useState("left");
-	const [size, setSize] = React.useState("full");
+	const { isOpen, onClose } = useDisclosure();
+	const [placement] = React.useState("left");
+	const [size] = React.useState("full");
 
 	return (
 		<>
-			{/* <IconButton
-				onClick={onOpen}
-				as="ctrlBtns"
-				variant="outline"
-				colorScheme="black"
-				aria-label="Back"
-				icon={<ArrowLeftIcon />}
-			/> */}
 			<IconButton
 				onClick={onClose}
 				as={DrawerCloseButton}

@@ -8,14 +8,12 @@ import {
 //Import Drawer Components, Engines
 import MenuDeck from "../../../components/menu/MenuDeck";
 import JLeft from '../../../components/engine/Jate/JLeft';
-import ETRight from '../../../components/engine/EmpTrk/ETRight';
 
 const Readme = () => {
 	return (
 		<>
 			<DrawerContent>
 				<DrawerBody className="drawer drawer-body readme">
-					{/* <Box backgroundImage={EmpTrk} /> */}
 					<header>
 						<h2 className="menu folio-head">DEVELOPER</h2>
 						<MenuDeck />
@@ -36,6 +34,7 @@ const Readme = () => {
 								className="repo-link"
 								href="https://github.com/wulfsounds/readme-generator"
 								target="_blank"
+								rel="noreferrer"
 							>
 								GITHUB</a>
 						</section>
