@@ -5,34 +5,32 @@ import {
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-	useDisclosure,
 	Box,
 } from "@chakra-ui/react";
 
 const MenuItems = () => {
-	const { isOpen, onOpen, onClose } = useDisclosure(); 
-	const [placement, setPlacement] = React.useState("bottom");
-	const [size, setSize] = React.useState("full");
 	return (
 		<section className="menu-section">
 			{/* Home */}
 			<Accordion allowToggle>
-			<a href="/" className="menu-item">
-				<h2 className="menu-item home-link">HOME</h2>
-			</a>
+				<a href="/" className="menu-item">
+					<h2 className="menu-item home-link">HOME</h2>
+				</a>
 				{/* Folio */}
 				<AccordionItem>
 					<AccordionButton className="acc-btn">
 						<Box flex="1" textAlign="left">
-							<h2 className="menu-item folio">
-								FOLIO
-							</h2>
+							<h2 className="menu-item folio">FOLIO</h2>
 						</Box>
 					</AccordionButton>
 					<AccordionPanel pb={4}>
 						<div className="menu-links">
-							<a className="link" href="/design">DESIGNER</a>
-							<a className="link" href="/develop">DEVELOPER</a>
+							<a className="link" href="/design">
+								DESIGNER
+							</a>
+							<a className="link" href="/develop">
+								DEVELOPER
+							</a>
 						</div>
 					</AccordionPanel>
 				</AccordionItem>
@@ -45,7 +43,10 @@ const MenuItems = () => {
 					</AccordionButton>
 					<AccordionPanel pb={4}>
 						<div className="menu-links">
-							<a className="link" href="mailto: dev@wulfsounds.com">
+							<a
+								className="link"
+								href="mailto: dev@wulfsounds.com"
+							>
 								EMAIL
 							</a>
 						</div>
@@ -60,16 +61,36 @@ const MenuItems = () => {
 					</AccordionButton>
 					<AccordionPanel pb={4}>
 						<div className="menu-links">
-							<a className="link" href="https://www.linkedin.com/in/devwulf/">
+							<a
+								className="link"
+								href="https://www.linkedin.com/in/devwulf/"
+								target="_blank"
+								rel="noreferrer"
+							>
 								LINKEDIN
 							</a>
-							<a className="link" href="http://www.instagram.com/wulfsounds">
+							<a
+								className="link"
+								href="http://www.instagram.com/wulfsounds"
+								target="_blank"
+								rel="noreferrer"
+							>
 								INSTAGRAM
 							</a>
-							<a className="link" href="https://github.com/wulfsounds">
+							<a
+								className="link"
+								href="https://github.com/wulfsounds"
+								target="_blank"
+								rel="noreferrer"
+							>
 								GITHUB
 							</a>
-							<a className="link" href="https://dribbble.com/wulfsounds">
+							<a
+								className="link"
+								href="https://dribbble.com/wulfsounds"
+								target="_blank"
+								rel="noreferrer"
+							>
 								DRIBBBLE
 							</a>
 						</div>
