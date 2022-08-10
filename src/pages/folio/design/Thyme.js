@@ -23,7 +23,6 @@ const Thyme = () => {
 					<main className="drawer-main">
 						<div className="btnContainer">
 							<DayLeft />
-							<DNDYRight />
 						</div>
 						<p className="para thyme-para">
 							Thyme is a conceptual note-taking application

@@ -24,7 +24,6 @@ const Readme = () => {
 						<div className="btnContainer">
 							{/* Button Control */}
 							<JLeft />
-							<ETRight />
 						</div>
 						<p className="para readme-para">
 							JATE is a progressive web-based application (PWA)

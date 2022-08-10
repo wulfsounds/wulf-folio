@@ -1,15 +1,17 @@
 @font-face {
   font-family: 'NeutralFace-Bold';
   src: local('NeutralFace-Bold'),
-      url('./components/fonts/NeutralFace-Bold.woff') format('woff'),
-      url('./components/fonts/NeutralFace-Bold.woff2') format('woff2');
+    url('./components/fonts/NeutralFace-Bold.woff') format('woff'),
+    url('./components/fonts/NeutralFace-Bold.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'NeutralFace';
   src: local('NeutralFace'),
-      url('./components/fonts/NeutralFace.woff') format('woff'),
-      url('./components/fonts/NeutralFace.woff2') format('woff2');
+    url('./components/fonts/NeutralFace.woff') format('woff'),
+    url('./components/fonts/NeutralFace.woff2') format('woff2');
+  font-display: swap;
 }
 
 /* Home Page */
@@ -34,8 +36,8 @@ main {
 }
 
 section {
-  width: 625px;
-  max-height: 450px;
+  max-height: 270px;
+  margin-top: 50px;
   /* border: yellow solid 3px; */
 }
 
@@ -52,7 +54,9 @@ section {
   font-size: 110px !important;
   line-height: 125px !important;
   margin: 25px 0 0 25px !important;
-  color: #000000;
+  mix-blend-mode: exclusion;
+  color: #F2EFE4 !important;
+  font-display: swap;
 }
 
 img {
@@ -62,8 +66,7 @@ img {
   border: #ffffff 5px solid !important;
 }
 
-h2,
-h3 {
+h2 {
   font-family: neue-haas-grotesk-display, sans-serif !important;
   font-weight: 900 !important;
   font-style: normal;
@@ -74,13 +77,21 @@ h2 {
 }
 
 h3 {
-  font-size: 24px !important;
+  font-family: 'NeutralFace-Bold', sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  color: #F2EFE4 !important;
+  mix-blend-mode: exclusion;
+  font-display: swap;
 }
 
 h4 {
   font-family: 'NeutralFace-Bold', sans-serif !important;
   font-weight: 500 !important;
   font-style: normal;
+  color: #F2EFE4 !important;
+  mix-blend-mode: exclusion;
+  font-display: swap;
 }
 
 p {
@@ -88,6 +99,7 @@ p {
   font-weight: 500 !important;
   font-style: normal;
   font-size: 20px !important;
+  font-display: swap;
 }
 
 /* MenuDeck, MenuItems */
@@ -106,6 +118,7 @@ p {
   font-style: normal !important;
   font-size: 110px !important;
   color: #F2EFE4 !important;
+  font-display: swap;
 }
 
 .drawer-main {
@@ -181,6 +194,7 @@ p {
   font-style: normal !important;
   font-size: 40px !important;
   color: #F2EFE4 !important;
+  font-display: swap;
 }
 
 
@@ -217,22 +231,33 @@ li {
   font-weight: 500 !important;
   font-size: 30px;
   color: #F2EFE4 !important;
+  font-display: swap;
 }
 
 .btnContainer {
   display: flex;
   position: absolute;
   left: 2em;
-  bottom: 20em;
+  bottom: 24em;
   width: 100px;
   justify-content: space-between;
   /* border: red solid 3px; */
 }
 
 .css-68beff,
-.css-8xi4id {
+.css-8xi4id,
+.chakra-button {
+  display: flex;
+  position: static !important;
   color: #F2EFE4 !important;
   mix-blend-mode: exclusion !important;
+  cursor: pointer;
+  top: 0em;
+  right: 0em;
+}
+
+.css-gighr:hover {
+  background-color: transparent !important;
 }
 
 /* DESIGNER */
@@ -295,6 +320,7 @@ li {
   font-size: 110px !important;
   color: #F2EFE4 !important;
   mix-blend-mode: exclusion;
+  font-display: swap;
 }
 
 .para {
@@ -311,13 +337,13 @@ li {
   color: #ffffff !important;
   width: 325px;
   right: 60em;
-  top: 22em;
+  top: 20em;
 }
 
 .project-links {
   position: absolute;
   left: 75em;
-  top: 33em;
+  top: 30em;
 }
 
 .repo-link {
@@ -326,6 +352,7 @@ li {
   font-style: normal !important;
   color: #ffffff !important;
   font-size: 32px;
+  font-display: swap;
 }
 
 /* DEVELOPER */
@@ -335,12 +362,12 @@ li {
 }
 
 /* Footer */
-
 footer {
   display: flex;
   justify-content: center;
+  background-color: transparent;
 }
 
 .vh {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 204px);
 }

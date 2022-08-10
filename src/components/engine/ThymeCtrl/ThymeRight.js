@@ -18,7 +18,6 @@ const ThymeRight = () => {
 		<>
 			<IconButton
 				onClick={onOpen}
-				as="ctrlBtns"
 				variant="outline"
 				colorScheme="black"
 				aria-label="Next"

@@ -5,9 +5,9 @@ import {
 	Drawer,
 	DrawerOverlay,
 	IconButton,
+	DrawerCloseButton
 } from "@chakra-ui/react";
 import { ArrowRightIcon, ArrowLeftIcon } from "@chakra-ui/icons";
-import Jate from "../../../pages/folio/develop/Jate";
 
 const JLeft = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -18,9 +18,8 @@ const JLeft = () => {
 		<>
 			<IconButton
 				onClick={onOpen}
-				as="ctrlBtns"
+				as={DrawerCloseButton}
 				variant="outline"
-				colorScheme="black"
 				aria-label="Back"
 				icon={<ArrowLeftIcon />}
 			/>
@@ -31,7 +30,6 @@ const JLeft = () => {
 				size={size}
 			>
 				<DrawerOverlay />
-				<Jate />
 			</Drawer>
 		</>
 	);

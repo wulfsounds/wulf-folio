@@ -1,15 +1,15 @@
 import React from "react";
 import MenuDeck from "../menu/MenuDeck"
 
-const Header = () => {
+const DevHead = () => {
 	return (
 		<>
 			<header>
-				<h1 id="title-header">WULFSOUNDS</h1>
+				<h1 id="title-header">DEVELOPER</h1>
                 <MenuDeck />
 			</header>
 		</>
 	);
 };
 
-export default Header;
+export default DevHead;

@@ -5,9 +5,9 @@ import {
 	Drawer,
 	DrawerOverlay,
 	IconButton,
+	DrawerCloseButton
 } from "@chakra-ui/react";
 import { ArrowLeftIcon } from "@chakra-ui/icons";
-import DNDY from "../../../pages/folio/design/DNDY";
 
 const DesignEco = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -17,10 +17,9 @@ const DesignEco = () => {
 	return (
 		<>
 			<IconButton
-				onClick={onOpen}
-				as="ctrlBtns"
+				onClick={onClose}
+				as={DrawerCloseButton}
 				variant="outline"
-				colorScheme="black"
 				aria-label="Back"
 				icon={<ArrowLeftIcon />}
 			/>
@@ -31,7 +30,6 @@ const DesignEco = () => {
 				size={size}
 			>
 				<DrawerOverlay />
-				<DNDY />
 			</Drawer>
 		</>
 	);

@@ -5,9 +5,9 @@ import {
 	Drawer,
 	DrawerOverlay,
 	IconButton,
+	DrawerCloseButton
 } from "@chakra-ui/react";
 import { ArrowLeftIcon } from "@chakra-ui/icons";
-import EmpTrk from "../../../pages/folio/develop/EmpTrk";
 
 const ETLeft = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -17,10 +17,9 @@ const ETLeft = () => {
 	return (
 		<>
 			<IconButton
-				onClick={onOpen}
-				as="ctrlBtns"
+				onClick={onClose}
+				as={DrawerCloseButton}
 				variant="outline"
-				colorScheme="black"
 				aria-label="Back"
 				icon={<ArrowLeftIcon />}
 			/>
@@ -31,7 +30,6 @@ const ETLeft = () => {
 				size={size}
 			>
 				<DrawerOverlay />
-				<EmpTrk />
 			</Drawer>
 		</>
 	);

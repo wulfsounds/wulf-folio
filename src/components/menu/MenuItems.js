@@ -40,7 +40,7 @@ const MenuItems = () => {
 				<AccordionItem>
 					<AccordionButton className="acc-btn">
 						<Box flex="1" textAlign="left">
-							<h2 className="menu-item">CONTACT</h2>
+							<h2 className="menu-item">HIRE ME</h2>
 						</Box>
 					</AccordionButton>
 					<AccordionPanel pb={4}>

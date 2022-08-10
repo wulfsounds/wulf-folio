@@ -5,6 +5,7 @@ import {
 	Drawer,
 	DrawerOverlay,
 	IconButton,
+	DrawerCloseButton
 } from "@chakra-ui/react";
 import { ArrowLeftIcon } from "@chakra-ui/icons";
 import Daytrip from "../../../pages/folio/design/Daytrip";
@@ -16,9 +17,17 @@ const DayLeft = () => {
 
 	return (
 		<>
-			<IconButton
+			{/* <IconButton
 				onClick={onOpen}
 				as="ctrlBtns"
+				variant="outline"
+				colorScheme="black"
+				aria-label="Back"
+				icon={<ArrowLeftIcon />}
+			/> */}
+			<IconButton
+				onClick={onClose}
+				as={DrawerCloseButton}
 				variant="outline"
 				colorScheme="black"
 				aria-label="Back"
