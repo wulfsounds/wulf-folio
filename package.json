@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node --optimize_for_size --max_old_space_size=460 dist/main.js",
+    "start": "node --optimize_for_size --max_old_space_size=460 start",
     "build": "react-scripts build",
     "dev-start": "react-scripts --openssl-legacy-provider start",
     "dev-build": "react-scripts --openssl-legacy-provider build",
