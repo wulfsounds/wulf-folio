@@ -1,5 +1,101 @@
 /* All Media Queries for mobile-responsiveness lives here */
 
+/* 1080px Screen Size */
+
+@media screen and (max-width: 1080px) {
+
+    /* Home */
+    #title-header {
+        font-size: 75px !important;
+        margin: 5px 0 0 25px !important;
+    }
+
+    p {
+        margin-top: 20px !important;
+    }
+
+    /* Menu */
+    .chakra-accordion {
+        display: flex !important;
+        justify-content: center;
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    main {
+        padding: 0px 100px 0px 100px !important;
+        margin-top: 100px;
+        max-height: 450px !important;
+    }
+
+    .menu-item {
+        font-size: 45px !important
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    /* Folio */
+
+    .background {
+        background-position: center 100px !important;
+        background-size: contain !important;
+    }
+
+    .para {
+        font-size: 18px !important;
+      }
+      
+      .dndy-para,
+      .daytrip-para,
+      .thyme-para,
+      .emptrk-para,
+      .jate-para,
+      .readme-para {
+        position: absolute;
+        color: #ffffff !important;
+        width: 325px;
+        left: 2em;
+        top: 28em;
+      }
+
+    .readme-para {
+        top: 12em !important;
+    }
+
+    .btnContainer2 {
+        display: flex;
+        position: absolute;
+        right: 0;
+        bottom: 24em;
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .css-8xi4id,
+    .css-gighr,
+    .css-1eximz4 {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+
+    .css-onkibi {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+
+    .project-links {
+        left: 52em;
+        top: 35em;
+    }
+
+    /* Footer */
+    .vh {
+        min-height: calc(100vh - 260px);
+    }
+}
+
 /* Tablet Size Screens */
 @media screen and (max-width: 810px) {
 
