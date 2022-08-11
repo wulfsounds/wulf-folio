@@ -226,6 +226,10 @@
         margin-top: 20px !important;
     }
 
+    .bio {
+        margin-top: -15px;
+    }
+
     /* Menu */
 
     .main {
@@ -233,6 +237,7 @@
     }
 
     .menu {
+        margin-top: 25px;
         font-size: 35px !important;
     }
 
@@ -297,7 +302,7 @@
 
     .btnContainer {
         left: 8em;
-        top: 48em;
+        top: 45em;
         width: 100px;
     }
 
@@ -305,7 +310,7 @@
         display: flex;
         position: absolute;
         left: 14em;
-        top: 48em;
+        top: 45em;
         width: 100px;
         justify-content: space-between;
     }
@@ -328,7 +333,7 @@
         flex-direction: row;
         justify-content: space-between;
         left: 2em;
-        top: 18em;
+        top: 16em;
     }
 
     .dev-link {
