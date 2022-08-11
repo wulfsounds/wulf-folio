@@ -22,7 +22,7 @@
         width: auto;
         flex-shrink: 0;
     }
-    
+
     main {
         padding: 0px 100px 0px 100px !important;
         margin-top: 140px;
@@ -48,6 +48,47 @@
         background-size: contain !important;
     }
 
+    .para {
+        position: relative;
+        color: #ffffff !important;
+        width: 480px;
+        font-size: 25px !important;
+        right: 0;
+        top: 0;
+    }
+
+    .btnContainer {
+        left: 42em;
+        bottom: 27em;
+    }
+
+    .reverse {
+        justify-content: flex-end;
+    }
+
+    .css-8xi4id {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+
+    .css-onkibi {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+
+    .project-links {
+        width: 360px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        left: 14em; 
+        top: 53em;
+    }
+
+    /* Footer */
+    .vh {
+        min-height: calc(100vh - 295px);
+      }
 }
 
 /* Smartphone size screens */

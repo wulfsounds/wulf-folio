@@ -12,14 +12,14 @@ const Design = () => {
 			<div className="dndy background">
 				<DesignHead />
 				<main className="drawer-main vh">
-					<div className="btnContainer">
+					<div className="btnContainer reverse">
 						{/* Button Control */}
 						<DayRight />
 					</div>
 					<p className="para dndy-para">
 						DNDY is a project I operated as a front-end designer
 						with a handful of really cool dudes during my time as a
-						full-stack web dev student.
+						web-dev student.
 						<br></br>
 						<br></br>
 						It’s a web based, full stack application that utilizes
