@@ -11,7 +11,7 @@ const Jate = () => {
 	return (
 		<>
 			<DrawerContent>
-				<DrawerBody className="drawer drawer-body jate">
+				<DrawerBody className="drawer drawer-body jate background">
 					{/* <Box backgroundImage={EmpTrk} /> */}
 					<header>
 						<h2 className="menu folio-head">DEVELOPER</h2>

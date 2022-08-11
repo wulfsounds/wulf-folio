@@ -40,6 +40,14 @@
     .link {
         font-size: 30px;
     }
+
+    /* Folio */
+
+    .background {
+        background-position: center 100px !important;
+        background-size: contain !important;
+    }
+
 }
 
 /* Smartphone size screens */

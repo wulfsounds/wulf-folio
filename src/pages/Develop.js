@@ -7,7 +7,7 @@ import JRight from "../components/engine/Jate/JRight";
 const Develop = () => {
 	return (
 		<>
-		<div className="emptrk">
+		<div className="emptrk background">
 			<DevHead />
 			<main className="drawer-main vh">
 				<div className="btnContainer">

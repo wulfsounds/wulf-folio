@@ -11,7 +11,7 @@ const Daytrip = () => {
 	return (
 		<>
 			<DrawerContent>
-				<DrawerBody className="drawer drawer-body daytrip">
+				<DrawerBody className="drawer drawer-body daytrip background">
 					<header>
 						<h2 className="menu folio-head">DESIGNER</h2>
 						<MenuDeck />

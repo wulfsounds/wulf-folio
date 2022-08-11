@@ -13,7 +13,7 @@ const Readme = () => {
 	return (
 		<>
 			<DrawerContent>
-				<DrawerBody className="drawer drawer-body readme">
+				<DrawerBody className="drawer drawer-body readme background">
 					<header>
 						<h2 className="menu folio-head">DEVELOPER</h2>
 						<MenuDeck />

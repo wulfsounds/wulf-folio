@@ -13,7 +13,7 @@ const Thyme = () => {
 	return (
 		<>
 			<DrawerContent>
-				<DrawerBody className="drawer drawer-body thyme">
+				<DrawerBody className="drawer drawer-body thyme background">
 					{/* <Box backgroundImage={DNDY} /> */}
 					<header>
 						<h2 className="menu folio-head">DESIGNER</h2>

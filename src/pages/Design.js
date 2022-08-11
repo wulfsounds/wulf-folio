@@ -9,9 +9,9 @@ import DesignHead from "../components/end-caps/DesignHead";
 const Design = () => {
 	return (
 		<>
-			<div className="dndy">
+			<div className="dndy background">
 				<DesignHead />
-				<main className="drawer-main dndy vh">
+				<main className="drawer-main vh">
 					<div className="btnContainer">
 						{/* Button Control */}
 						<DayRight />
