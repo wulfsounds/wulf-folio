@@ -1,0 +1,45 @@
+/* All Media Queries for mobile-responsiveness lives here */
+
+/* Tablet Size Screens */
+@media screen and (max-width: 810px) {
+
+    /* Home */
+    #title-header {
+        font-size: 75px !important;
+        margin: 5px 0 0 25px !important;
+    }
+
+    p {
+        margin-top: 20px !important;
+    }
+
+    /* Menu */
+    .chakra-accordion {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        flex-shrink: 0;
+    }
+    
+    main {
+        padding: 0px 100px 0px 100px !important;
+        margin-top: 140px;
+        max-height: 450px !important;
+    }
+
+    .menu-item {
+        font-size: 60px !important
+    }
+
+    .menu-links {
+        align-items: center !important;
+    }
+
+    .link {
+        font-size: 30px;
+    }
+}
+
+/* Smartphone size screens */

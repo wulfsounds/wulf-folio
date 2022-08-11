@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
+import "./mobile.css"
 
 // Import Components
 import Footer from "./components/end-caps/Footer";
