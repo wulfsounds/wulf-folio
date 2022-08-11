@@ -3,24 +3,22 @@ import React from "react";
 import { DrawerBody, DrawerContent } from "@chakra-ui/react";
 
 //Import Drawer Components, Engines
-import MenuDeck from "../../../components/menu/MenuDeck";
 import ETLeft from "../../../components/engine/EmpTrk/ETLeft";
 import RMRight from "../../../components/engine/Readme/RMRight";
+import DevHead from "../../../components/end-caps/DevHead";
 
 const Jate = () => {
 	return (
 		<>
 			<DrawerContent>
 				<DrawerBody className="drawer drawer-body jate background">
-					{/* <Box backgroundImage={EmpTrk} /> */}
-					<header>
-						<h2 className="menu folio-head">DEVELOPER</h2>
-						<MenuDeck />
-					</header>
+					<DevHead />
 					<main className="drawer-main">
 						<div className="btnContainer">
 							{/* Button Control */}
 							<ETLeft />
+						</div>
+						<div className="btnContainer2">
 							<RMRight />
 						</div>
 						<p className="para jate-para">
@@ -28,8 +26,12 @@ const Jate = () => {
 							that utilizes IndexedDB for storage and uses a data
 							persistence technique that allows the program to run
 							offline.
+							<br></br>
+							<br></br>
+							This appplication is downloaded using Google Chrome
+							cards.
 						</p>
-						<section className="project-links">
+						<section className="project-links dev-link">
 							<a
 								className="repo-link"
 								href="https://github.com/wulfsounds/pwa-jate"

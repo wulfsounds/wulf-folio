@@ -3,23 +3,21 @@ import React from "react";
 import { DrawerBody, DrawerContent } from "@chakra-ui/react";
 
 //Import Drawer Components, Engines
-import MenuDeck from "../../../components/menu/MenuDeck";
 import DNDYLeft from "../../../components/engine/DNDYCtrl/DndyLeft";
 import ThymeRight from "../../../components/engine/ThymeCtrl/ThymeRight";
+import DesignHead from "../../../components/end-caps/DesignHead";
 
 const Daytrip = () => {
 	return (
 		<>
 			<DrawerContent>
 				<DrawerBody className="drawer drawer-body daytrip background">
-					<header>
-						<h2 className="menu folio-head">DESIGNER</h2>
-						<MenuDeck />
-					</header>
+				<DesignHead />
 					<main className="drawer-main">
 						<div className="btnContainer">
-							{/* Button Control */}
 							<DNDYLeft />
+						</div>
+						<div className="btnContainer2">
 							<ThymeRight />
 						</div>
 						<p className="para daytrip-para">

@@ -10,7 +10,7 @@ const Develop = () => {
 		<div className="emptrk background">
 			<DevHead />
 			<main className="drawer-main vh">
-				<div className="btnContainer">
+				<div className="btnContainer2">
 					{/* Button Control */}
 					<JRight />
 				</div>
@@ -23,7 +23,7 @@ const Develop = () => {
 					The application stores basic employee information in a SQL
 					database using a CRUD API.
 				</p>
-				<section className="project-links">
+				<section className="project-links dev-link">
 					<a
 						className="repo-link"
 						href="https://github.com/wulfsounds/sql-employee-tracker"

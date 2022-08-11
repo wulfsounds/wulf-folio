@@ -6,19 +6,15 @@ import {
 } from "@chakra-ui/react";
 
 //Import Drawer Components, Engines
-import MenuDeck from "../../../components/menu/MenuDeck";
 import DayLeft from "../../../components/engine/DayCtrl/DayLeft";
+import DesignHead from "../../../components/end-caps/DesignHead";
 
 const Thyme = () => {
 	return (
 		<>
 			<DrawerContent>
 				<DrawerBody className="drawer drawer-body thyme background">
-					{/* <Box backgroundImage={DNDY} /> */}
-					<header>
-						<h2 className="menu folio-head">DESIGNER</h2>
-						<MenuDeck />
-					</header>
+				<DesignHead />
 					<main className="drawer-main">
 						<div className="btnContainer">
 							<DayLeft />

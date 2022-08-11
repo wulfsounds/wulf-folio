@@ -12,7 +12,7 @@ const Design = () => {
 			<div className="dndy background">
 				<DesignHead />
 				<main className="drawer-main vh">
-					<div className="btnContainer reverse">
+					<div className="btnContainer2">
 						{/* Button Control */}
 						<DayRight />
 					</div>
