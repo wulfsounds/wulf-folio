@@ -244,6 +244,15 @@ li {
   /* border: red solid 3px; */
 }
 
+.btnContainer2 {
+  display: flex;
+  position: absolute;
+  left: 6em;
+  bottom: 24em;
+  width: 100px;
+  justify-content: space-between;
+}
+
 .css-68beff,
 .css-8xi4id,
 .chakra-button {
