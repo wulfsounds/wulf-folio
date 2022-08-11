@@ -85,14 +85,6 @@ const MenuItems = () => {
 							>
 								GITHUB
 							</a>
-							<a
-								className="link"
-								href="https://dribbble.com/wulfsounds"
-								target="_blank"
-								rel="noreferrer"
-							>
-								DRIBBBLE
-							</a>
 						</div>
 					</AccordionPanel>
 				</AccordionItem>
