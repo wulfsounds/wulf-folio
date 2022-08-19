@@ -3,11 +3,6 @@
 @media screen and (min-width: 1920px) {
 
     /* Home */
-    #title-header {
-        /* font-size: 75px !important; */
-        /* margin: 5px 0 0 25px !important; */
-    }
-
     p {
         width: 960px;
         margin-top: 20px !important;
@@ -36,12 +31,6 @@
     }
 
     /* Folio */
-
-    .background {
-        /* background-position: center 100px !important; */
-        /* background-size: contain !important; */
-    }
-
     .para {
         font-size: 25px !important;
     }
