@@ -1,8 +1,114 @@
 /* All Media Queries for mobile-responsiveness lives here */
 
-/* 1080px Screen Size */
+@media screen and (min-width: 1920px) {
 
-@media screen and (max-width: 1080px) {
+    /* Home */
+    #title-header {
+        /* font-size: 75px !important; */
+        /* margin: 5px 0 0 25px !important; */
+    }
+
+    p {
+        width: 960px;
+        margin-top: 20px !important;
+    }
+
+    /* Menu */
+    .chakra-accordion {
+        display: flex !important;
+        justify-content: center;
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    main {
+        padding: 0px 100px 0px 100px !important;
+        margin-top: 100px;
+        max-height: 450px !important;
+    }
+
+    .menu-item {
+        font-size: 45px !important
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    /* Folio */
+
+    .background {
+        /* background-position: center 100px !important; */
+        /* background-size: contain !important; */
+    }
+
+    .para {
+        font-size: 25px !important;
+    }
+
+    .dndy-para,
+    .daytrip-para,
+    .thyme-para,
+    .emptrk-para,
+    .jate-para,
+    .readme-para {
+        position: absolute;
+        color: #ffffff !important;
+        width: 575px;
+        left: 2em;
+        top: 28em;
+    }
+
+    .readme-para {
+        top: 12em !important;
+    }
+
+    .btnContainer2 {
+        display: flex;
+        position: absolute;
+        left: 108em;
+        bottom: 30em;
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .btnContainer {
+        left: 3em;
+        bottom: 30em;
+    }
+
+    .css-8xi4id,
+    .css-gighr,
+    .css-1eximz4 {
+        width: 6rem !important;
+        height: 6rem !important;
+    }
+
+    .css-68beff {
+        width: 100px;
+    }
+
+    .css-onkibi {
+        width: 2em !important;
+        height: 2em !important;
+    }
+
+    .repo-link {
+        font-size: 55px !important;
+    }
+
+    .project-links {
+        left: 95em;
+        top: 50em;
+    }
+
+    /* Footer */
+    .vh {
+        min-height: calc(100vh - 275px);
+    }
+}
+
+@media screen and (max-width: 1366px) {
 
     /* Home */
     #title-header {
@@ -39,26 +145,26 @@
     /* Folio */
 
     .background {
-        background-position: center 100px !important;
-        background-size: contain !important;
+        /* background-position: center 100px !important; */
+        /* background-size: contain !important; */
     }
 
     .para {
         font-size: 18px !important;
-      }
-      
-      .dndy-para,
-      .daytrip-para,
-      .thyme-para,
-      .emptrk-para,
-      .jate-para,
-      .readme-para {
+    }
+
+    .dndy-para,
+    .daytrip-para,
+    .thyme-para,
+    .emptrk-para,
+    .jate-para,
+    .readme-para {
         position: absolute;
         color: #ffffff !important;
-        width: 325px;
+        /* width: 325px; */
         left: 2em;
         top: 28em;
-      }
+    }
 
     .readme-para {
         top: 12em !important;
@@ -67,10 +173,216 @@
     .btnContainer2 {
         display: flex;
         position: absolute;
-        right: 0;
-        bottom: 24em;
+        left: 78em;
+        /* bottom: 30em; */
         width: 100px;
         justify-content: space-between;
+    }
+
+    .btnContainer {
+        left: 3em;
+        /* bottom: 39em; */
+    }
+
+    .css-8xi4id,
+    .css-gighr,
+    .css-1eximz4 {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+
+    .css-onkibi {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+
+    .project-links {
+        left: 70em;
+        top: 35em;
+    }
+
+    /* Footer */
+    .vh {
+        min-height: calc(100vh - 260px);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    /* Home */
+    #title-header {
+        font-size: 75px !important;
+        margin: 5px 0 0 25px !important;
+    }
+
+    p {
+        margin-top: 20px !important;
+    }
+
+    /* Menu */
+    .chakra-accordion {
+        display: flex !important;
+        justify-content: center;
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    main {
+        padding: 0px 100px 0px 100px !important;
+        margin-top: 100px;
+        max-height: 450px !important;
+    }
+
+    .menu-item {
+        font-size: 45px !important
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    /* Folio */
+
+    .background {
+        /* background-position: center 100px !important; */
+        background-size: contain !important;
+    }
+
+    .para {
+        font-size: 18px !important;
+    }
+
+    .dndy-para,
+    .daytrip-para,
+    .thyme-para,
+    .emptrk-para,
+    .jate-para,
+    .readme-para {
+        position: absolute;
+        color: #ffffff !important;
+        width: 325px;
+        left: 3em;
+        top: 28em;
+    }
+
+    .readme-para {
+        top: 12em !important;
+    }
+
+    .btnContainer2 {
+        display: flex;
+        position: absolute;
+        left: 73em;
+        /* bottom: 39em; */
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .btnContainer {
+        left: 3em;
+        /* bottom: 39em; */
+    }
+
+    .css-8xi4id,
+    .css-gighr,
+    .css-1eximz4 {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+
+    .css-onkibi {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+
+    .project-links {
+        left: 62em;
+        top: 35em;
+    }
+
+    /* Footer */
+    .vh {
+        min-height: calc(100vh - 260px);
+    }
+}
+
+/* 1024px Screen Size */
+
+@media screen and (max-width: 1024px) {
+
+    /* Home */
+    #title-header {
+        font-size: 75px !important;
+        margin: 5px 0 0 25px !important;
+    }
+
+    p {
+        margin-top: 20px !important;
+        width: 775px;
+    }
+
+    /* Menu */
+    .chakra-accordion {
+        display: flex !important;
+        justify-content: center;
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    main {
+        padding: 0px 100px 0px 100px !important;
+        margin-top: 100px;
+        max-height: 450px !important;
+    }
+
+    .menu-item {
+        font-size: 45px !important
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    /* Folio */
+
+    .background {
+        background-position: center 100px !important;
+        background-size: contain !important;
+    }
+
+    .para {
+        font-size: 18px !important;
+    }
+
+    .dndy-para,
+    .daytrip-para,
+    .thyme-para,
+    .emptrk-para,
+    .jate-para,
+    .readme-para {
+        position: absolute;
+        color: #ffffff !important;
+        width: 325px;
+        left: 2em;
+        top: 28em;
+    }
+
+    .readme-para {
+        top: 12em !important;
+    }
+
+    .btnContainer2 {
+        display: flex;
+        position: absolute;
+        left: 57em;
+        /* bottom: 39em; */
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .btnContainer {
+        left: 3em;
+        /* bottom: 39em; */
     }
 
     .css-8xi4id,
@@ -107,6 +419,7 @@
 
     p {
         margin-top: 20px !important;
+        width: 600px;
     }
 
     /* Menu */
@@ -149,8 +462,8 @@
         color: #ffffff !important;
         width: 480px;
         font-size: 25px !important;
-        right: 0;
         top: 0;
+        left: 0em;
     }
 
     .daytrip-para,
@@ -283,6 +596,7 @@
         font-size: 18px !important;
         margin-top: 0px !important;
         left: 0;
+        /* top: -3em; */
         flex: 1 0 auto;
     }
 
@@ -334,6 +648,10 @@
         justify-content: space-between;
         left: 2em;
         top: 16em;
+    }
+
+    .repo-link {
+        font-size: 32px !important;
     }
 
     .dev-link {
