@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4c675ad.css",
+    "main.js": "/static/js/main.17177691.js",
+    "static/js/787.ff4344a3.chunk.js": "/static/js/787.ff4344a3.chunk.js",
+    "static/media/README-2.png": "/static/media/README-2.e5f56c38b5ac6559062d.png",
+    "static/media/DNDYlogo.png": "/static/media/DNDYlogo.72940cbdc2f86402d71b.png",
+    "static/media/JATE-2.png": "/static/media/JATE-2.e537a5b6a80a07f08742.png",
+    "static/media/emp-trk2.png": "/static/media/emp-trk2.102ce4117b3dfa5ba719.png",
+    "static/media/thyme.png": "/static/media/thyme.41ad0e61ae5d00bd4081.png",
+    "static/media/daytripper-logo.png": "/static/media/daytripper-logo.0fd125d9a563d1d70899.png",
+    "static/media/NeutralFace.woff": "/static/media/NeutralFace.0f1ab5b2778cfc3946ef.woff",
+    "static/media/NeutralFace-Bold.woff": "/static/media/NeutralFace-Bold.da626fc5d7fb98bf0406.woff",
+    "static/media/NeutralFace.woff2": "/static/media/NeutralFace.073696e0b53ad1c82133.woff2",
+    "static/media/NeutralFace-Bold.woff2": "/static/media/NeutralFace-Bold.1d03dbe0da3d905a3cdd.woff2",
+    "index.html": "/index.html",
+    "main.f4c675ad.css.map": "/static/css/main.f4c675ad.css.map",
+    "main.17177691.js.map": "/static/js/main.17177691.js.map",
+    "787.ff4344a3.chunk.js.map": "/static/js/787.ff4344a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c675ad.css",
+    "static/js/main.17177691.js"
+  ]
+}
