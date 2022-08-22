@@ -24,10 +24,10 @@ function App() {
 			<div className="App">
 				<Router>
 					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/design" element={<Design />} />
-						<Route path="/develop" element={<Develop />} />
-						<Route path="*" element={<Gateway />} />
+						<Route exact path="/" element={<Home />} />
+						<Route exact path="/design" element={<Design />} />
+						<Route exact path="/develop" element={<Develop />} />
+						<Route exact path="*" element={<Gateway />} />
 					</Routes>
 					<Footer />
 				</Router>
