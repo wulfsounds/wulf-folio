@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d3e24905.css",
-    "main.js": "/static/js/main.e66b7c30.js",
+    "main.js": "/static/js/main.da0c6e31.js",
     "static/js/787.ff4344a3.chunk.js": "/static/js/787.ff4344a3.chunk.js",
     "static/media/README-2.png": "/static/media/README-2.e5f56c38b5ac6559062d.png",
     "static/media/DNDYlogo.png": "/static/media/DNDYlogo.72940cbdc2f86402d71b.png",
@@ -15,11 +15,11 @@
     "static/media/NeutralFace-Bold.woff2": "/static/media/NeutralFace-Bold.1d03dbe0da3d905a3cdd.woff2",
     "index.html": "/index.html",
     "main.d3e24905.css.map": "/static/css/main.d3e24905.css.map",
-    "main.e66b7c30.js.map": "/static/js/main.e66b7c30.js.map",
+    "main.da0c6e31.js.map": "/static/js/main.da0c6e31.js.map",
     "787.ff4344a3.chunk.js.map": "/static/js/787.ff4344a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e24905.css",
-    "static/js/main.e66b7c30.js"
+    "static/js/main.da0c6e31.js"
   ]
 }
