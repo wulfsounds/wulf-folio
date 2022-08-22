@@ -71,14 +71,6 @@ const MenuItems = () => {
 							</a>
 							<a
 								className="link"
-								href="http://www.instagram.com/wulfsounds"
-								target="_blank"
-								rel="noreferrer"
-							>
-								INSTAGRAM
-							</a>
-							<a
-								className="link"
 								href="https://github.com/wulfsounds"
 								target="_blank"
 								rel="noreferrer"
