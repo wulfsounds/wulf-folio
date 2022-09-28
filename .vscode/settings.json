@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6500d831-277c-45f1-b5b0-c8f660124662/microsoft.web/sites/subscriptions/6500d831-277c-45f1-b5b0-c8f660124662/resourceGroups/wulf-folio_group/providers/Microsoft.Web/sites/wulf-folio",
+    "appService.deploySubpath": "."
+}
